@@ -159,6 +159,14 @@ class CancerModel:
 
 
     def get_feature_importance_df(self, X):
+        """_summary_
+
+        Args:
+            X (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
         feature_importance = self.get_feature_importance()
         feature_variance = self.get_feature_variance()
 
