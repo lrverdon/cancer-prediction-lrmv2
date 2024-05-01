@@ -2,6 +2,7 @@ import unittest
 
 from cancer_prediction.cancer_model import CancerModel
 
+
 class TestCancerModel(unittest.TestCase):
 
      def test_diagnosis_to_target(self):
